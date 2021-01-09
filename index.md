@@ -7,7 +7,7 @@
 
 ## 书籍
 
-- [<<kubernetes书籍>>](./books/index.md)
+- [《kubernetes书籍》](./books/index.md)
 
 ## demo项目
 
