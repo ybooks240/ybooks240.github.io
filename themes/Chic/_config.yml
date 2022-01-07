@@ -16,7 +16,7 @@ nickname: James Liu
 
 ### this variable is MarkDown form.
 description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: ./image/avatar.jpeg
+avatar: /image/avatar.jpeg
 
 # main menu navigation
 ## links key words should not be changed.
@@ -86,12 +86,12 @@ time_format: H:mm:ss
 
 # stylesheets loaded in the <head>
 stylesheets:
-  - ./css/style.css
+  - /css/style.css
 
 # scripts loaded in the end of the body
 scripts:
-  - ./js/script.js
-  - ./js/tocbot.min.js
+  - /js/script.js
+  - /js/tocbot.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
