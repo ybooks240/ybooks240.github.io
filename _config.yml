@@ -102,4 +102,6 @@ theme: Chic
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: 'https://github.com/ybooks240/www.buleye.com'
+  branch: master
