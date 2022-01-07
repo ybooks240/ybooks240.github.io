@@ -103,5 +103,5 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: 'https://github.com/ybooks240/www.buleye.com'
+  repository: 'git@github.com:ybooks240/www.buleye.com.git'
   branch: master
