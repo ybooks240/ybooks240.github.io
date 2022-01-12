@@ -125,3 +125,20 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+url: https://www.buleye.com  # 修改成你博客的首页地址
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# 自动生成sitemap
+sitemap: 
+  path: sitemap.xml
+baidusitemap: 
+  path: baidusitemap.xml
+
+# baidu_url_submit:
+#   count: 3 ## 提交最新的3个链接
+#   host: https://www.buleye.com ## 在百度站长平台中注册的域名
+#   token: `上一步中获取的token` ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+#   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
