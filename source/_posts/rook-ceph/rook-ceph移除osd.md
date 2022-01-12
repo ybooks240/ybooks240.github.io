@@ -9,7 +9,7 @@ cover: true
 coverImg: https://buleye.oss-cn-shenzhen.aliyuncs.com/images/202201111748228.png
 toc: true
 mathjax: false
-summary: rook-ceph在使用过程中难免会遇到磁盘异常的情况，这个时候我们如何安全下线磁盘进行维护。
+summary: rook-ceph在使用过程中难免会遇到磁盘异常的情况，我们如何安全下线磁盘进行维护。
 categories: rook-ceph
 tags:
   - rook-ceph

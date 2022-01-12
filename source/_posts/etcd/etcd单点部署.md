@@ -1,5 +1,5 @@
 ---
-title: 居于kubeadm部署的etcd备份恢复
+title: etcd单点部署
 date: 2022-01-12 11:40:35
 author:  
 img: https://buleye.oss-cn-shenzhen.aliyuncs.com/images/etcd.png

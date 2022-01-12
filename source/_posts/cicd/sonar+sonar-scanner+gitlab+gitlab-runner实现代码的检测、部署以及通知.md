@@ -9,8 +9,7 @@ cover: true
 coverImg: https://buleye.oss-cn-shenzhen.aliyuncs.com/images/202201121153157.png
 toc: true
 mathjax: false
-summary: 随着工作量越来越大，我们需要保证我们的工作效率的同时保证我们的代码的质量，所以我们需要一些自动化的东西加入到我们的工作中
-自动化部署、自动化测试、自动化通知等
+summary: 随着工作量越来越大，我们需要保证我们的工作效率的同时保证我们的代码的质量，所以我们需要一些自动化的东西加入到我们的工作中自动化部署、自动化测试、自动化通知等
 categories: cicd
 tags:
   - cicd
@@ -50,13 +49,13 @@ sonar实现对静态代码的扫描，给我对代码质量、安全的解析
 
 > 下载sonar
 
-```
+```shell
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
 ```
 
 > 创建数据库
 
-```
+```shell
 # 编写docker-compose.yml
 vim docker-compose.yml 
 
