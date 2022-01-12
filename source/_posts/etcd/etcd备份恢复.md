@@ -9,7 +9,7 @@ cover: true
 coverImg: https://buleye.oss-cn-shenzhen.aliyuncs.com/images/202201111645412.png
 toc: true
 mathjax: false
-summary: 居于kubeadmin部署的etcd备份恢复
+summary: k8s维护过程中，我们难免遇到etcd故障或者需要备份恢复的时候，我们如何解决此类问题呢，下面介绍居于kubeadmin部署的etcd备份恢复
 categories: etcd
 tags:
   - etcd
