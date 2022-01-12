@@ -140,5 +140,5 @@ baidusitemap:
 baidu_url_submit:
   count: 3 ## 提交最新的3个链接
   host: https://www.buleye.com ## 在百度站长平台中注册的域名
-  token: cGoooyV4rRCf1Cfb ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  token: BAIDU_URL_SUBMIT_TOKEN ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
