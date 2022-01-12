@@ -24,7 +24,7 @@ jobs:
       - name: Setup Hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          ACTION_BAIDU_URL_SUBMIT: ${{ BAIDU_URL_SUBMIT_TOKEN}}
+          ACTION_BAIDU_URL_SUBMIT: ${{ BAIDU_URL_SUBMIT_TOKEN }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
@@ -35,9 +35,9 @@ jobs:
           git config --global user.name "唐吉诃德"
           npm install hexo-cli -g
           npm install
+          sed -i "s/BAIDU_URL_SUBMIT_TOKEN/$ACTION_BAIDU_URL_SUBMIT_TOKEN/g" _config.yml
 
       - name: Deploy
         run: |
-          sed -i "s/BAIDU_URL_SUBMIT_TOKEN/$BAIDU_URL_SUBMIT_TOKEN/g" _config.yml
           hexo clean
           hexo deploy
