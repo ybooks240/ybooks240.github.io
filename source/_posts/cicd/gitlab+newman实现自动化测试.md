@@ -4,13 +4,16 @@ date: 2022-01-11 11:40:35
 author:  
 toc: true
 mathjax: false
+summary: 初探newman实现自动化测试报告
 categories: cicd
+
 tags:
   - cicd
   - newman
 ---
 
 # 使用
+
 ```
 npm install -g newman
 npm install -g newman-reporter-html

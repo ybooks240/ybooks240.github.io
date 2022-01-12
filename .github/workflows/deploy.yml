@@ -24,7 +24,7 @@ jobs:
       - name: Setup Hexo
         env:
           ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          ACTION_BAIDU_URL_SUBMIT_TOKEN: ${{ BAIDU_URL_SUBMIT_TOKEN }}
+          ACTION_BAIDU_URL_SUBMIT_TOKEN: ${{ secrets.BAIDU_URL_SUBMIT_TOKEN }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
