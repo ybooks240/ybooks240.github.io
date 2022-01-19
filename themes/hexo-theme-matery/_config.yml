@@ -16,12 +16,9 @@ menu:
   Friends:
     url: /friends
     icon: fas fa-address-book
-  其他:
-   icon: fas fa-list
-   children:
-     - name: 书籍
-       url: /books
-       icon: fas fa-book
+  Shares: 
+    url: /shares
+    icon: fas fa-book
   About:
     url: /about
     icon: fas fa-user-circle
