@@ -39,9 +39,9 @@ services:
   test2:
     image: busybox
     command: sh -c "sleep 36000000"
-    network_mode: "service:web"
+    network_mode: "service:test1"
     depends_on:
-      - web
+      - test1
 networks:
   mac1:
     external: true
