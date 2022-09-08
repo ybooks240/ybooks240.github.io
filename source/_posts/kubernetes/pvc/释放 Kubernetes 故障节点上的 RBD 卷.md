@@ -2,7 +2,7 @@
 title: 释放 Kubernetes 故障节点上的 RBD 卷
 date: 2022-09-07 11:40:35
 author: james.liu
-top:false
+top: false
 hide: false
 toc: true
 mathjax: false

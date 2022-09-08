@@ -2,7 +2,7 @@
 title: 意外导致pvc状态为Terminating的恢复流程
 date: 2022-09-07 12:40:35
 author: james.liu
-top:false
+top: false
 hide: false
 toc: true
 mathjax: false
