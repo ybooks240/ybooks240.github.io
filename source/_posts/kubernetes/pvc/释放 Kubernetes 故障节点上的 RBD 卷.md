@@ -7,7 +7,7 @@ hide: false
 toc: true
 mathjax: false
 summary: 释放 Kubernetes 故障节点上的 RBD 卷
-categories: Markdown
+categories: kubernetes
 tags:
   - kubernetes
   - pvc

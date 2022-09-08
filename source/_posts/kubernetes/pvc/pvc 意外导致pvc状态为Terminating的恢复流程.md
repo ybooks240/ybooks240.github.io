@@ -7,7 +7,7 @@ hide: false
 toc: true
 mathjax: false
 summary: 意外导致pvc状态为Terminating的恢复流程
-categories: Markdown
+categories: kubernetes
 tags:
   - kubernetes
   - pvc
