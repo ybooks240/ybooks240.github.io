@@ -1,6 +1,6 @@
 ---
 title: 意外导致pvc状态为Terminating的恢复流程
-date: 2022-01-07 05:40:35
+date: 2022-09-07 12:40:35
 author: james.liu
 top:false
 hide: false
@@ -11,7 +11,6 @@ categories: Markdown
 tags:
   - kubernetes
   - pvc
-  - rook-ceps
 ---
 
 ## 模拟`pvc`故障问题

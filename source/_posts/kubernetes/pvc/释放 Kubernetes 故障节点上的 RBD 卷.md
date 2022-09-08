@@ -1,6 +1,6 @@
 ---
 title: 释放 Kubernetes 故障节点上的 RBD 卷
-date: 2022-01-07 05:40:35
+date: 2022-09-07 11:40:35
 author: james.liu
 top:false
 hide: false
@@ -11,7 +11,7 @@ categories: Markdown
 tags:
   - kubernetes
   - pvc
-  - rook-ceps
+  - rook-ceph
 ---
 
 # 释放 Kubernetes 故障节点上的 RBD 卷
