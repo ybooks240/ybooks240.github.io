@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>探究云原生</title>
+  
+  <subtitle>探究云原生</subtitle>
+  <link href="https://www.buleye.com/atom.xml" rel="self"/>
+  
+  <link href="https://www.buleye.com/"/>
+  <updated>2022-09-08T09:00:49.104Z</updated>
+  <id>https://www.buleye.com/</id>
+  
+  <author>
+    <name>James Liu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更换证书后kubelet无法启动</title>
+    <link href="https://www.buleye.com/2022/09/08/kubernetes/geng-huan-zheng-shu-hou-kubelet-wu-fa-qi-dong/"/>
+    <id>https://www.buleye.com/2022/09/08/kubernetes/geng-huan-zheng-shu-hou-kubelet-wu-fa-qi-dong/</id>
+    <published>2022-09-08T12:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;现象&quot;&gt;&lt;a href=&quot;#现象&quot; class=&quot;headerlink&quot; title=&quot;现象&quot;&gt;&lt;/a&gt;现象&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/categories/kubernetes/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="cert" scheme="https://www.buleye.com/tags/cert/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>意外导致pvc状态为Terminating的恢复流程</title>
+    <link href="https://www.buleye.com/2022/09/07/kubernetes/pvc/pvc-yi-wai-dao-zhi-pvc-zhuang-tai-wei-terminating-de-hui-fu-liu-cheng/"/>
+    <id>https://www.buleye.com/2022/09/07/kubernetes/pvc/pvc-yi-wai-dao-zhi-pvc-zhuang-tai-wei-terminating-de-hui-fu-liu-cheng/</id>
+    <published>2022-09-07T12:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;模拟pvc故障问题&quot;&gt;&lt;a href=&quot;#模拟pvc故障问题&quot; class=&quot;headerlink&quot; title=&quot;模拟pvc故障问题&quot;&gt;&lt;/a&gt;模拟&lt;code&gt;pvc&lt;/code&gt;故障问题&lt;/h2&gt;&lt;h4 id=&quot;查看正常状态下pv以及pvc&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/categories/kubernetes/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="pvc" scheme="https://www.buleye.com/tags/pvc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>释放 Kubernetes 故障节点上的 RBD 卷</title>
+    <link href="https://www.buleye.com/2022/09/07/kubernetes/pvc/shi-fang-kubernetes-gu-zhang-jie-dian-shang-de-rbd-juan/"/>
+    <id>https://www.buleye.com/2022/09/07/kubernetes/pvc/shi-fang-kubernetes-gu-zhang-jie-dian-shang-de-rbd-juan/</id>
+    <published>2022-09-07T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;释放-Kubernetes-故障节点上的-RBD-卷&quot;&gt;&lt;a href=&quot;#释放-Kubernetes-故障节点上的-RBD-卷&quot; class=&quot;headerlink&quot; title=&quot;释放 Kubernetes 故障节点上的 RBD 卷&quot;&gt;&lt;/a&gt;释放</summary>
+        
+      
+    
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/categories/kubernetes/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/tags/rook-ceph/"/>
+    
+    <category term="pvc" scheme="https://www.buleye.com/tags/pvc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker-compose多个容器共用一个IP地址</title>
+    <link href="https://www.buleye.com/2022/05/20/docker-compose/docker-compose-chuang-jian-duo-ge-rong-qi-gong-yong-yi-ge-ip/"/>
+    <id>https://www.buleye.com/2022/05/20/docker-compose/docker-compose-chuang-jian-duo-ge-rong-qi-gong-yong-yi-ge-ip/</id>
+    <published>2022-05-20T16:43:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何使用docker-compose实现kubernetes-pod共用IP功能&quot;&gt;&lt;a href=&quot;#如何使用docker-compose实现kubernetes-pod共用IP功能&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="docker-compose" scheme="https://www.buleye.com/categories/docker-compose/"/>
+    
+    
+    <category term="docker-compose" scheme="https://www.buleye.com/tags/docker-compose/"/>
+    
+    <category term="ip" scheme="https://www.buleye.com/tags/ip/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>居于kubeadm部署的etcd备份恢复</title>
+    <link href="https://www.buleye.com/2022/05/20/etcd/etcd-gu-zhang-hui-fu/"/>
+    <id>https://www.buleye.com/2022/05/20/etcd/etcd-gu-zhang-hui-fu/</id>
+    <published>2022-05-20T16:43:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;当ETCD没有备份故障时候恢复&quot;&gt;&lt;a href=&quot;#当ETCD没有备份故障时候恢复&quot; class=&quot;headerlink&quot; title=&quot;当ETCD没有备份故障时候恢复&quot;&gt;&lt;/a&gt;当ETCD没有备份故障时候恢复&lt;/h1&gt;&lt;p&gt;在</summary>
+        
+      
+    
+    
+    
+    <category term="etcd" scheme="https://www.buleye.com/categories/etcd/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="etcd" scheme="https://www.buleye.com/tags/etcd/"/>
+    
+    <category term="kubeadm" scheme="https://www.buleye.com/tags/kubeadm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kubernetes基础操作命令</title>
+    <link href="https://www.buleye.com/2022/02/11/bases/ji-chu-cao-zuo-ming-ling/"/>
+    <id>https://www.buleye.com/2022/02/11/bases/ji-chu-cao-zuo-ming-ling/</id>
+    <published>2022-02-11T12:19:35.000Z</published>
+    <updated>2022-09-08T09:00:49.100Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;操作命令&quot;&gt;&lt;a href=&quot;#操作命令&quot; class=&quot;headerlink&quot; title=&quot;操作命令&quot;&gt;&lt;/a&gt;操作命令&lt;/h2&gt;&lt;h3 id=&quot;集群信息&quot;&gt;&lt;a href=&quot;#集群信息&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/categories/kubernetes/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚拟机重启异常</title>
+    <link href="https://www.buleye.com/2022/02/11/kvm/xu-ni-ji-yi-chang/"/>
+    <id>https://www.buleye.com/2022/02/11/kvm/xu-ni-ji-yi-chang/</id>
+    <published>2022-02-11T11:19:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;虚拟机重启异常&quot;&gt;&lt;a href=&quot;#虚拟机重启异常&quot; class=&quot;headerlink&quot; title=&quot;虚拟机重启异常&quot;&gt;&lt;/a&gt;虚拟机重启异常&lt;/h1&gt;&lt;h1 id=&quot;现象&quot;&gt;&lt;a href=&quot;#现象&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="kvm" scheme="https://www.buleye.com/categories/kvm/"/>
+    
+    
+    <category term="kvm" scheme="https://www.buleye.com/tags/kvm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitlab+gitlab-runner搭建自动化部署</title>
+    <link href="https://www.buleye.com/2022/01/12/cicd/gitlab-gitlab-runner-da-jian-zi-dong-hua-bu-shu/"/>
+    <id>https://www.buleye.com/2022/01/12/cicd/gitlab-gitlab-runner-da-jian-zi-dong-hua-bu-shu/</id>
+    <published>2022-01-12T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;实现自动部署&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发人员上传代码到gitlab&lt;/li&gt;
+&lt;li&gt;gitlab-runner</summary>
+        
+      
+    
+    
+    
+    <category term="cicd" scheme="https://www.buleye.com/categories/cicd/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="cicd" scheme="https://www.buleye.com/tags/cicd/"/>
+    
+    <category term="gitlab" scheme="https://www.buleye.com/tags/gitlab/"/>
+    
+    <category term="gitlab-runner" scheme="https://www.buleye.com/tags/gitlab-runner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>flannel</title>
+    <link href="https://www.buleye.com/2022/01/12/cni/flannel/"/>
+    <id>https://www.buleye.com/2022/01/12/cni/flannel/</id>
+    <published>2022-01-12T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://buleye.oss-cn-shenzhen.aliyuncs.com/images/cni/flannel/image-20220112162558328.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="cni" scheme="https://www.buleye.com/categories/cni/"/>
+    
+    
+    <category term="cni" scheme="https://www.buleye.com/tags/cni/"/>
+    
+    <category term="flannel" scheme="https://www.buleye.com/tags/flannel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macvlan</title>
+    <link href="https://www.buleye.com/2022/01/12/cni/macvlan/"/>
+    <id>https://www.buleye.com/2022/01/12/cni/macvlan/</id>
+    <published>2022-01-12T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;什么是macvlan&quot;&gt;&lt;a href=&quot;#什么是macvlan&quot; class=&quot;headerlink&quot; title=&quot;什么是macvlan&quot;&gt;&lt;/a&gt;什么是macvlan&lt;/h2&gt;&lt;p&gt;macvlan</summary>
+        
+      
+    
+    
+    
+    <category term="cni" scheme="https://www.buleye.com/categories/cni/"/>
+    
+    
+    <category term="cni" scheme="https://www.buleye.com/tags/cni/"/>
+    
+    <category term="macvlan" scheme="https://www.buleye.com/tags/macvlan/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>etcd单点部署</title>
+    <link href="https://www.buleye.com/2022/01/12/etcd/etcd-dan-dian-bu-shu/"/>
+    <id>https://www.buleye.com/2022/01/12/etcd/etcd-dan-dian-bu-shu/</id>
+    <published>2022-01-12T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;etcd单节点部署&quot;&gt;&lt;a href=&quot;#etcd单节点部署&quot; class=&quot;headerlink&quot; title=&quot;etcd单节点部署&quot;&gt;&lt;/a&gt;etcd单节点部署&lt;/h1&gt;&lt;h2 id=&quot;下载安装包&quot;&gt;&lt;a href=&quot;#下载安装包&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="etcd" scheme="https://www.buleye.com/categories/etcd/"/>
+    
+    
+    <category term="etcd" scheme="https://www.buleye.com/tags/etcd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql</title>
+    <link href="https://www.buleye.com/2022/01/12/databases/mysql/mysql/"/>
+    <id>https://www.buleye.com/2022/01/12/databases/mysql/mysql/</id>
+    <published>2022-01-12T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+    
+    
+    <category term="databases" scheme="https://www.buleye.com/categories/databases/"/>
+    
+    
+    <category term="databases" scheme="https://www.buleye.com/tags/databases/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker多个容器共用一个IP地址</title>
+    <link href="https://www.buleye.com/2022/01/11/docker-compose/docker-duo-ge-rong-qi-gong-yong-yi-ge-ip-di-zhi/"/>
+    <id>https://www.buleye.com/2022/01/11/docker-compose/docker-duo-ge-rong-qi-gong-yong-yi-ge-ip-di-zhi/</id>
+    <published>2022-01-11T16:43:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何使用docker-compose实现kubernetes-pod共用IP功能&quot;&gt;&lt;a href=&quot;#如何使用docker-compose实现kubernetes-pod共用IP功能&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="docker" scheme="https://www.buleye.com/categories/docker/"/>
+    
+    
+    <category term="ip" scheme="https://www.buleye.com/tags/ip/"/>
+    
+    <category term="docker" scheme="https://www.buleye.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>居于kubeadm部署的etcd备份恢复</title>
+    <link href="https://www.buleye.com/2022/01/11/etcd/etcd-bei-fen-hui-fu/"/>
+    <id>https://www.buleye.com/2022/01/11/etcd/etcd-bei-fen-hui-fu/</id>
+    <published>2022-01-11T16:43:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;居于-kubeadm部署的etcd备份恢复&quot;&gt;&lt;a href=&quot;#居于-kubeadm部署的etcd备份恢复&quot; class=&quot;headerlink&quot; title=&quot;居于 kubeadm部署的etcd备份恢复&quot;&gt;&lt;/a&gt;居于</summary>
+        
+      
+    
+    
+    
+    <category term="etcd" scheme="https://www.buleye.com/categories/etcd/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="etcd" scheme="https://www.buleye.com/tags/etcd/"/>
+    
+    <category term="kubeadm" scheme="https://www.buleye.com/tags/kubeadm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rook-ceph osd 内存限制</title>
+    <link href="https://www.buleye.com/2022/01/11/rook-ceph/rook-ceph-de-osd-nei-cun-xian-zhi/"/>
+    <id>https://www.buleye.com/2022/01/11/rook-ceph/rook-ceph-de-osd-nei-cun-xian-zhi/</id>
+    <published>2022-01-11T15:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;rook-ceph内存限制&quot;&gt;&lt;a href=&quot;#rook-ceph内存限制&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/categories/rook-ceph/"/>
+    
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/tags/rook-ceph/"/>
+    
+    <category term="优化" scheme="https://www.buleye.com/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>k8s 通过helm部署gitlab-runner</title>
+    <link href="https://www.buleye.com/2022/01/11/cicd/k8s-tong-guo-helm-bu-shu-gitlab-runner/"/>
+    <id>https://www.buleye.com/2022/01/11/cicd/k8s-tong-guo-helm-bu-shu-gitlab-runner/</id>
+    <published>2022-01-11T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h1 id=&quot;gitlab-需要提供的参数-URL-TOKEN&quot;&gt;&lt;a href=&quot;#gitlab-需要提供的参数-URL-TOKEN&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="cicd" scheme="https://www.buleye.com/categories/cicd/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="cicd" scheme="https://www.buleye.com/tags/cicd/"/>
+    
+    <category term="gitlab" scheme="https://www.buleye.com/tags/gitlab/"/>
+    
+    <category term="gitlab-runner" scheme="https://www.buleye.com/tags/gitlab-runner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gitlab+newman实现自动化测试</title>
+    <link href="https://www.buleye.com/2022/01/11/cicd/gitlab-newman-shi-xian-zi-dong-hua-ce-shi/"/>
+    <id>https://www.buleye.com/2022/01/11/cicd/gitlab-newman-shi-xian-zi-dong-hua-ce-shi/</id>
+    <published>2022-01-11T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h1&gt;&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;npm</summary>
+        
+      
+    
+    
+    
+    <category term="cicd" scheme="https://www.buleye.com/categories/cicd/"/>
+    
+    
+    <category term="cicd" scheme="https://www.buleye.com/tags/cicd/"/>
+    
+    <category term="newman" scheme="https://www.buleye.com/tags/newman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sonar+sonar-scanner+gitlab+gitlab-runner实现代码的检测、部署以及通知</title>
+    <link href="https://www.buleye.com/2022/01/10/cicd/sonar-sonar-scanner-gitlab-gitlab-runner-shi-xian-dai-ma-de-jian-ce-bu-shu-yi-ji-tong-zhi/"/>
+    <id>https://www.buleye.com/2022/01/10/cicd/sonar-sonar-scanner-gitlab-gitlab-runner-shi-xian-dai-ma-de-jian-ce-bu-shu-yi-ji-tong-zhi/</id>
+    <published>2022-01-10T11:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="cicd" scheme="https://www.buleye.com/categories/cicd/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="cicd" scheme="https://www.buleye.com/tags/cicd/"/>
+    
+    <category term="gitlab" scheme="https://www.buleye.com/tags/gitlab/"/>
+    
+    <category term="gitlab-runner" scheme="https://www.buleye.com/tags/gitlab-runner/"/>
+    
+    <category term="sonar+sonar" scheme="https://www.buleye.com/tags/sonar-sonar/"/>
+    
+    <category term="scanner" scheme="https://www.buleye.com/tags/scanner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rook-ceph下线osd</title>
+    <link href="https://www.buleye.com/2022/01/07/rook-ceph/rook-ceph-yi-chu-osd/"/>
+    <id>https://www.buleye.com/2022/01/07/rook-ceph/rook-ceph-yi-chu-osd/</id>
+    <published>2022-01-07T05:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/categories/rook-ceph/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/tags/rook-ceph/"/>
+    
+    <category term="csi" scheme="https://www.buleye.com/tags/csi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rook-ceph升级</title>
+    <link href="https://www.buleye.com/2022/01/07/rook-ceph/rook-ceph-sheng-ji/"/>
+    <id>https://www.buleye.com/2022/01/07/rook-ceph/rook-ceph-sheng-ji/</id>
+    <published>2022-01-07T05:40:35.000Z</published>
+    <updated>2022-09-08T09:00:49.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;rook-ceph升级&quot;&gt;&lt;a href=&quot;#rook-ceph升级&quot; class=&quot;headerlink&quot; title=&quot;rook-ceph升级&quot;&gt;&lt;/a&gt;rook-ceph升级&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/categories/rook-ceph/"/>
+    
+    
+    <category term="kubernetes" scheme="https://www.buleye.com/tags/kubernetes/"/>
+    
+    <category term="rook-ceph" scheme="https://www.buleye.com/tags/rook-ceph/"/>
+    
+    <category term="csi" scheme="https://www.buleye.com/tags/csi/"/>
+    
+    <category term="network" scheme="https://www.buleye.com/tags/network/"/>
+    
+  </entry>
+  
+</feed>
